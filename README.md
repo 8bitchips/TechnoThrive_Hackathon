@@ -1,5 +1,5 @@
-![](./images/We.png)
-# WeCare Generative AL
+![](./images/we.png)
+# WeCare Generative AI
 The goal is to leverage AI technologies to streamline the content creation process and provide a personalized experience to readers while maintaining the integrity and authenticity of the publishing brand.
 
 ## Overview
