@@ -1,4 +1,5 @@
 ![](./images/we.png)
+
 # WeCare Generative AI
 WeCare is to utilize advanced artificial intelligence techniques to create and simulate various healthcare-related data and scenarios. It aims to assist medical professionals in tasks such as generating medical images, personalized treatment plans, synthetic patient data, and predictive modeling. By harnessing the power of generative models, these apps have the potential to enhance medical research, diagnostics, treatment planning, and education within the healthcare industry.
 
@@ -34,6 +35,30 @@ Through this app, we aim at solving the limitations of traditional content creat
 - Accurate understanding of user preferences and interests.
 - Monitoring and evaluating AI performance.
 
+# Installation of Project
+
+### Prerequisite
+PHP v8.1,PHP Mbstring Extension,PHP PDO Extension,PHP FileInfo Extension,PHP JSON Extension,PHP CURL Extension,PHP ZipArchive Extension,PHP symlink() function,PHP shell_exec() function,PHP file_get_contents() function
+
+
+1. Setup Wamp or Xampp Server in case of Windows or LAMP Server in case of Linux or MAMP in case of Mac, Here I have used Cpanel beacause it is easy to setup in cpanel.
+
+2. Zip and upload only the contents of github Project to the root directory of your hosting server. Ex: /var/www/html/ or /home/username/public_html or whatever is the root folder of your domain/subdomain which will make it reachable as follows: http://yourwebsitename/ like in my case https://learnowx.teamcode.tech
+3. After uploading all files and making sure that domain name has proper path set, create Mysql database and proper user in case if you don't already have one, to access this database. You can either create manually via your phpMyAdmin panel or use phpMyAdmin Wizard in your cPanel to create one
+4. Now open .env.example file in file manager and add the following details:-
+   APP_URL=
+   APP_EMAIL=
+   DB_CONNECTION=mysql
+   DB_HOST=localhost
+   DB_PORT=3306
+   DB_DATABASE=
+   DB_USERNAME=
+   DB_PASSWORD=
+   OPENAI_SECRET_KEY= Chatgpt api key
+  finalyy change .env.example to .env and then save.
+5. Finally Import .sql content into phymyadmin of cpanel
+6. Boom!! Now you can open your Project with credentials user@gmail.com and admin12345
+
 
 ## Tools and Technology Used:
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
@@ -42,6 +67,18 @@ Through this app, we aim at solving the limitations of traditional content creat
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
 ![PHP](https://img.shields.io/badge/-PHP-brightgreen)
 ![MySQL](https://img.shields.io/badge/-MySQL-yellow)
+
+
+## AI MODELS 
+1. Breast Cancer Detection :
+Convolutional Neural Networks to detect the presence of Metastatic tissue and Invasive Ductal Carcinoma Breast’s Histopathological Images.
+
+2. Cervical Cancer Detection :
+Voting Ensemble and Extreme Random Trees models predict presence of and preliminary test results according to user’s demographic information, habits, and historic medical records. Using the UCI's Machine Learning repository’s Cervical cancer (Risk Factors) Data Set.
+
+3. PCOS Prediction :
+We used a Voting Ensemble model to predict the risk of PCOS on the basis of lifestyle and food intake habits, that are derived from the 2017 Survey Data.
+There is a database to store data of patients for user-authentication and connect with the user dashboard to show the lab records and appointments
 
 
 ## Business Model / StartUp Potential  	:moneybag:
@@ -71,7 +108,7 @@ Offer in-app purchases for additional features, templates, or content styles tha
 
 ### ScreenShots of WeCare
 <pre>
-<img src="./images/1.png" alt="1" width="1920" height="1080" /> <img src="./images/2.png" alt="1" width="300" height="600" /> <img src="./images/3.png" alt="1" width="300" height="600" /> <img src="./images/4.png" alt="1" width="300" height="600" /> <img src="./images/5.png" alt="1" width="300" height="600" /> 
+<img src="./images/1.jpg" alt="1" width="300" height="600" /> <img src="./images/2.jpg" alt="1" width="300" height="600" /> <img src="./images/3.jpg" alt="1" width="300" height="600" /> <img src="./images/4.jpg" alt="1" width="300" height="600" /> <img src="./images/5.jpg" alt="1" width="300" height="600" /> 
 </pre>
 ### Contributors
 
