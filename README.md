@@ -1,4 +1,5 @@
 ![](./images/we.png)
+
 # WeCare Generative AI
 WeCare is to utilize advanced artificial intelligence techniques to create and simulate various healthcare-related data and scenarios. It aims to assist medical professionals in tasks such as generating medical images, personalized treatment plans, synthetic patient data, and predictive modeling. By harnessing the power of generative models, these apps have the potential to enhance medical research, diagnostics, treatment planning, and education within the healthcare industry.
 
