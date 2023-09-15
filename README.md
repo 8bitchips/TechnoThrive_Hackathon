@@ -71,7 +71,7 @@ Offer in-app purchases for additional features, templates, or content styles tha
 
 ### ScreenShots of WeCare
 <pre>
-<img src="./images/1.jpg" alt="1" width="300" height="600" /> <img src="./images/2.jpg" alt="1" width="300" height="600" /> <img src="./images/3.jpg" alt="1" width="300" height="600" /> <img src="./images/4.jpg" alt="1" width="300" height="600" /> <img src="./images/5.jpg" alt="1" width="300" height="600" /> 
+<img src="./images/1.png" alt="1" width="1920" height="1080" /> <img src="./images/2.png" alt="1" width="300" height="600" /> <img src="./images/3.png" alt="1" width="300" height="600" /> <img src="./images/4.png" alt="1" width="300" height="600" /> <img src="./images/5.png" alt="1" width="300" height="600" /> 
 </pre>
 ### Contributors
 
